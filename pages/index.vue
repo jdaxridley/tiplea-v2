@@ -3,8 +3,8 @@
     <header class="site-nav" :class="{ 'site-nav--solid': navSolid, 'site-nav--open': menuOpen }">
       <div class="container nav-shell">
         <a class="brand" href="#top" @click="menuOpen = false">
-          <span class="brand-mark">Tiplea</span>
-          <span class="brand-copy">Oral Surgery</span>
+          <span class="brand-mark">MDS</span>
+          <span class="brand-copy">Mobile Dental Surgeon</span>
         </a>
 
         <nav class="nav-links" :class="{ open: menuOpen }">
@@ -300,6 +300,10 @@
           </div>
 
           <div class="doctor-side">
+            <div class="doctor-photo">
+              <img src="/michael-tiplea.png" alt="Dr. Michael Tiplea, DDS, AFAAID" loading="lazy" />
+            </div>
+
             <div class="doctor-metrics editorial-grid">
               <div v-for="item in doctorMetrics" :key="item.label" class="grid-card doctor-metric">
                 <strong>{{ item.value }}</strong>
@@ -454,8 +458,8 @@
       <div class="container footer-shell">
         <div>
           <a class="brand brand--footer" href="#top">
-            <span class="brand-mark">Tiplea</span>
-            <span class="brand-copy">Oral Surgery</span>
+            <span class="brand-mark">MDS</span>
+            <span class="brand-copy">Mobile Dental Surgeon</span>
           </a>
           <p class="footer-copy">Mobile oral surgery for Dallas–Fort Worth general dental practices.</p>
         </div>
@@ -476,10 +480,10 @@ import 'swiper/css'
 import 'swiper/css/pagination'
 
 useSeoMeta({
-  title: 'Tiplea Oral Surgery | Mobile OMS for Dallas-Fort Worth Dental Practices',
+  title: 'Mobile Dental Surgeon | Mobile OMS for Dallas-Fort Worth Dental Practices',
   description:
     'Premium mobile oral surgery website for Dr. Michael Tiplea, DDS, AFAAID. Wisdom teeth, implants, IV sedation, grafting, and All-on-X delivered directly inside Dallas-Fort Worth dental practices.',
-  ogTitle: 'Tiplea Oral Surgery | Mobile OMS for Dallas-Fort Worth Dental Practices',
+  ogTitle: 'Mobile Dental Surgeon | Mobile OMS for Dallas-Fort Worth Dental Practices',
   ogDescription:
     'Keep patients and production in-house with mobile oral surgery, IV sedation, and same-day revenue sharing for DFW dental practices.',
   twitterCard: 'summary_large_image'
@@ -1186,6 +1190,13 @@ const formatCurrency = (value: number) => `$${value.toLocaleString('en-US')}`
 .doctor-side {
   display: grid;
   gap: 1rem;
+}
+
+.doctor-photo img {
+  width: 100%;
+  border-radius: var(--radius);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
 }
 
 .doctor-metrics {

@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/variables.css', '~/assets/css/main.css'],
   app: {
     head: {
-      title: 'Tiplea Oral Surgery | Mobile OMS for Dallas-Fort Worth Dental Practices',
+      title: 'Mobile Dental Surgeon | Mobile OMS for Dallas-Fort Worth Dental Practices',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -17,7 +17,7 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: '#041627' },
         {
           property: 'og:title',
-          content: 'Tiplea Oral Surgery | Mobile OMS for Dallas-Fort Worth Dental Practices'
+          content: 'Mobile Dental Surgeon | Mobile OMS for Dallas-Fort Worth Dental Practices'
         },
         {
           property: 'og:description',
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         {
           name: 'twitter:title',
-          content: 'Tiplea Oral Surgery | Mobile OMS for Dallas-Fort Worth Dental Practices'
+          content: 'Mobile Dental Surgeon | Mobile OMS for Dallas-Fort Worth Dental Practices'
         },
         {
           name: 'twitter:description',
