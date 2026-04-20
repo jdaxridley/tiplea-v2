@@ -12,6 +12,7 @@
     "@studio-freight/lenis": "^1.0.42",
     "@vueuse/core": "^13.9.0",
     "@vueuse/nuxt": "^13.9.0",
+    "gsap": "^3.15.0",
     "nuxt": "^4.4.2",
     "swiper": "^12.1.3"
   }

@@ -293,9 +293,8 @@
               sedation, efficient case flow, patient retention, and conservative safety standards.
             </p>
             <p class="body-copy doctor-copy__secondary">
-              Credentials highlighted on the current site include IV sedation specialization, ACLS certification, ADSA
-              Mastership candidacy, and independent malpractice coverage. The model is designed so general dentists gain
-              surgical capability without building a second business inside their own practice.
+              He holds IV sedation specialization, ACLS certification, and is an ADSA
+              Mastership candidate — carrying independent malpractice coverage so host offices never inherit surgical liability.
             </p>
           </div>
 
@@ -328,8 +327,8 @@
               <h2 class="section-title">Why the model resonates with general dentists.</h2>
             </div>
             <p class="section-copy">
-              The current live site positions the service around comfort, production, seamless workflow, and patient loyalty.
-              These quotes are presented as host-office sentiment and reinforce the core economic value proposition.
+              Hear from DFW practices that have already hosted Dr. Tiplea — from first-case skeptics to recurring
+              surgery-day partners.
             </p>
           </div>
 
@@ -366,8 +365,8 @@
               <h2 class="section-title">Common host-office questions, answered clearly.</h2>
             </div>
             <p class="section-copy">
-              The live site addresses the same concerns that matter to any GP office: safety, disruption, patient ownership,
-              commitment level, and what happens when something comes up after the case.
+              Safety, disruption, patient ownership, commitment level, and postoperative care — here are the answers
+              that matter before your first surgery day.
             </p>
           </div>
 
@@ -396,8 +395,8 @@
             <span class="section-kicker">Become a host office</span>
             <h2 class="section-title">Start with one case. Experience the workflow. Decide from there.</h2>
             <p class="section-copy">
-              The current site offers a preferential split for first surgical day partnerships and emphasizes zero long-term
-              commitment. Reach out directly or preload an email inquiry using the form.
+              Preferential split for first surgical day partnerships. No long-term commitment required. Reach out directly or
+              start with an email inquiry.
             </p>
 
             <div class="contact-benefits editorial-grid">
@@ -647,7 +646,7 @@ const safetyCards = [
     eyebrow: 'Selection',
     title: 'Only conservative office-based cases are accepted.',
     copy:
-      'The live site emphasizes ASA I and ASA II patients only, with cases reviewed before scheduling to maintain a disciplined safety envelope.'
+      'Only ASA I and II patients qualify for in-office surgery. Every case is reviewed before scheduling to maintain a strict safety envelope.'
   },
   {
     eyebrow: 'Liability',
@@ -675,7 +674,7 @@ const mobileUnit = [
 
 const doctorMetrics = [
   { value: 'DDS', label: 'Doctor of Dental Surgery' },
-  { value: 'AFAAID', label: 'Fellowship credential highlighted on the live site' },
+  { value: 'AFAAID', label: 'Academy of Implant Dentistry Fellow' },
   { value: '2016', label: 'traveling the DFW area with the mobile model' },
   { value: 'ACLS', label: 'certified emergency readiness' }
 ]
@@ -722,27 +721,27 @@ const faqItems = [
   {
     question: 'What happens if a patient has a concern after surgery?',
     answer:
-      'The live site emphasizes direct access to Dr. Tiplea rather than a call center. Host offices are positioned to have surgeon-level communication when real postoperative questions arise.'
+      'Dr. Tiplea is directly accessible for postoperative questions — no call center, no waiting room. Host offices get surgeon-level communication when real concerns arise.'
   },
   {
     question: 'Is there a long-term commitment or exclusivity clause?',
     answer:
-      'No. The current positioning is explicitly low-friction: start with one case or a first surgical day, validate the fit, and continue only if the workflow works for your office.'
+      'No — there\'s no long-term commitment. Start with one case or a first surgical day, validate the fit, and continue only if the workflow works for your office.'
   },
   {
     question: 'Which patients qualify for hosted surgery?',
     answer:
-      'Only conservatively selected office-based cases are accepted, with ASA I and II patients highlighted on the current site and each case reviewed in advance before scheduling.'
+      'Only conservative, office-based cases — ASA I and II patients. Every case is reviewed before scheduling to ensure it fits the safety envelope.'
   },
   {
     question: 'Do I need to buy surgical motors, sedation equipment, or implant inventory?',
     answer:
-      'No. The service promise is zero overhead for the host office: the mobile unit arrives with equipment, inventory, trays, and staffing already prepared.'
+      'No. We bring everything — surgical motors, sedation equipment, implant inventory, trays, and staffing. The host office supplies the operatory and the patient. That\'s it.'
   },
   {
     question: 'Why not just keep referring out?',
     answer:
-      'Because every referral can represent lost revenue, lower patient retention, and a weaker relationship arc. The host-office model lets you preserve surgical production inside your existing ecosystem.'
+      'Every referral you send out is production you don\'t capture. Patients leave your ecosystem. Relationships weaken. The host-office model keeps surgical revenue inside your practice — and your patients stay yours.'
   }
 ]
 
@@ -750,12 +749,12 @@ const contactBenefits = [
   {
     eyebrow: 'Fast start',
     title: '24-hour review cadence',
-    copy: 'The current offer centers on quick case review so offices can move from inquiry to first hosted block without drawn-out onboarding.'
+    copy: 'Cases reviewed within 24 hours. From inquiry to first hosted block — no drawn-out onboarding, no paperwork delays.'
   },
   {
     eyebrow: 'Low risk',
     title: 'Preferential first-case economics',
-    copy: 'The live site promotes a favorable split for a first surgical day so host offices can test the model before expanding volume.'
+    copy: 'A favorable split on your first surgical day so you can test the model with zero risk before committing to volume.'
   },
   {
     eyebrow: 'No lock-in',

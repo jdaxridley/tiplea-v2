@@ -227,14 +227,31 @@ p {
   background: rgba(16, 32, 51, 0.12);
 }
 
+/* Cards — premium depth */
 .grid-card {
   background: var(--navy-panel);
   padding: clamp(1.5rem, 3vw, 2.3rem);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  transition: border-color 0.35s ease, box-shadow 0.35s ease, transform 0.35s ease;
+}
+
+.grid-card:hover {
+  border-color: rgba(179, 140, 97, 0.15);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
 }
 
 .section--cream .grid-card,
 .section--pale .grid-card {
   background: rgba(255, 255, 255, 0.82);
+  border-color: rgba(16, 32, 51, 0.06);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.section--cream .grid-card:hover,
+.section--pale .grid-card:hover {
+  border-color: rgba(179, 140, 97, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
 }
 
 .left-accent-card {
@@ -318,6 +335,46 @@ p {
 
 input[type='range'] {
   accent-color: var(--gold);
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+  box-shadow: 0 2px 12px rgba(179, 140, 97, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: grab;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 20px rgba(179, 140, 97, 0.6);
+}
+
+input[type='range']::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  transform: scale(1.1);
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+  box-shadow: 0 2px 12px rgba(179, 140, 97, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  cursor: grab;
 }
 
 @media (max-width: 1024px) {

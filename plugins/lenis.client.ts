@@ -21,6 +21,13 @@ export default defineNuxtPlugin((nuxtApp) => {
 
   rafId = window.requestAnimationFrame(raf)
 
+  // Sync Lenis with GSAP ScrollTrigger
+  lenis.on('scroll', () => {
+    if (typeof window !== 'undefined' && (window as any).ScrollTrigger) {
+      ;(window as any).ScrollTrigger.update()
+    }
+  })
+
   nuxtApp.hook('app:beforeUnmount', () => {
     window.cancelAnimationFrame(rafId)
     lenis.destroy()
